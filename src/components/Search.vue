@@ -1,15 +1,15 @@
 <template>
-    <div>
+    <div>  
+        <form @submit.prevent="$store.dispatch('search')">
          <img src="../assets/chef.jpg" alt="Not Loaded" id="chef">
        <input type="text " v-model="$store.state.searchedMeal"> &nbsp;
-       <router-link to="/searchview"> <button  class="btn btn-primary" @click="$store.dispatch('search')">
+       <router-link to="/searchview"> <button  
+       class="btn btn-primary" @click="$store.dispatch('search')">
        search
        </button>
        </router-link> &nbsp;
       
-       <div>
-
-       </div>
+       </form>
     </div>
 </template>
 
