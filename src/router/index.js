@@ -5,7 +5,7 @@ import Instruction from '../components/Instructions.vue'
 
 const routes = [
   {
-    path: '/',
+    path: '/:id',
     name: 'HelloWorld',
     component: HelloWorld
   },

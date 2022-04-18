@@ -11,7 +11,10 @@ export default {
   components:{
     Card
   }
- 
+ ,
+ methods:{
+   
+ }
 }
 </script>
 
